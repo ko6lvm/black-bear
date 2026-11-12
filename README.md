@@ -49,7 +49,15 @@ Only use PETG, ABS, or ASA. PLA will deform in a hot car.
 M3 screws are to be used. There are two options of the top case tray, one for self-tap M3 screws, and one for M3 screws with heatset inserts.
 ### Images
 <details>
-<summary>Assembled (collapsable as image is large)</summary>
+<summary>Blender Renders (collapsable as image is large)</summary>
+<image src="img/blender/front.png" width=700>
+<image src="img//blender/bottom.png" width=700>
+<image src="img//blender/macro.png" width=700>
+<image src="img//blender/exploded.png" width=700>
+<image src="img//blender/open.png" width=700>
+</details>
+<details>
+<summary>Renders (collapsable as image is large)</summary>
 <image src="img/back-assembled.png" width=700>
 <image src="img/front-assembled.png" width=700>
 <image src="img/front-bottom-assembled.png" width=700>
@@ -61,19 +69,6 @@ M3 screws are to be used. There are two options of the top case tray, one for se
 <image src="img/top-heatset.png" width=700>
 <image src="img/bottom.png" width=700>
 </details>
-
-## Renders
-Blender Renders of an assembled black bear.
-
-<details>
-<summary>Renders (collapsable as image is large)</summary>
-<image src="img/blender/front.png" width=700>
-<image src="img//blender/bottom.png" width=700>
-<image src="img//blender/macro.png" width=700>
-<image src="img//blender/exploded.png" width=700>
-<image src="img//blender/open.png" width=700>
-</details>
-
 
 ## Firmware
 black bear is not supplied with firmware made specifically for black bear, as there are open-source options that are community-tested and support multiple apps/host software.  [meatpiHQ/wican-fw](https://github.com/meatpihq/wican-fw) is recommended; it supports `elm327` (required for black bear's CAN setup) as well as `slcand` and `gvret` for the host software.
@@ -90,7 +85,7 @@ idf.py -p /dev/ttyACM0 build flash
 ```
 
 ## BoM
-Also available at `bom.csv`. Costs may vary.
+Also available at `bom.csv` (csv contains costs). Costs may vary.
 
 | Designator | Qty | Description | Package | MPN | LCSC |
 | :--- | :---: | :--- | :--- | :--- | :--- |
@@ -114,3 +109,5 @@ Also available at `bom.csv`. Costs may vary.
 | `C6, C7, C16` | 3 | 10µF 25V X5R Capacitor | 0805 | `CL21A106KAYNNNE` | `C15850` |
 | `C8` | 1 | 10µF 50V X5R Capacitor | 1206 | `CL31A106KBHNNNE` | `C13585` |
 | `C11, C12` | 2 | 22µF 16V X5R Capacitor | 0805 | `CL21A226MOQNNNE` | `C98190` |
+
+Note: `J1` (the OBD-II port) is not usually available from Macchina, so an alternative from other sites such as [this one from eBay](https://www.ebay.com/itm/267812712566) for ~$15 will work as well.
