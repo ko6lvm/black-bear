@@ -45,7 +45,7 @@ Additionally, assembly can be done by JLCPCB PCBA, with the following constraint
 </details>
 
 ## Case
-### Specv
+### Specs
 Only use PETG, ABS, or ASA. PLA will deform in a hot car.  
 M3 screws are to be used. There are two options of the top case tray, one for self-tap M3 screws, and one for M3 screws with heatset inserts.
 ### Images
