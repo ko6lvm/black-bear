@@ -22,8 +22,9 @@ Additionally, assembly can be done by JLCPCB PCBA, with the following constraint
 ### Files
 
 * CPL/BOM files for JLCPCB PCBA is under `pcb/`, marked `_eco.csv` for economic PCBA and `_standard.csv` for standard PCBA.
-* Gerber ZIP for both Economic and Standard is at `pcb/black-bear-rev-1.1.zip`.
+* Gerber ZIP for both Economic and Standard is at `pcb/black-bear-rev-1.2.zip`.
 * KiCAD 10 project files are at `pcb/`, as `bear.kicad_pcb`, `bear.kicad_prl`, `bear.kicad_pro`, and `bear.kicad_sch`.
+* KiCAD 10 library files are at `pcb/lib/`.
 
 ### Images
 <details>
@@ -44,7 +45,7 @@ Additionally, assembly can be done by JLCPCB PCBA, with the following constraint
 </details>
 
 ## Case
-### Spec
+### Specv
 Only use PETG, ABS, or ASA. PLA will deform in a hot car.  
 M3 screws are to be used. There are two options of the top case tray, one for self-tap M3 screws, and one for M3 screws with heatset inserts.
 ### Images
@@ -68,7 +69,7 @@ black bear is not supplied with firmware made specifically for black bear, as th
 
 ### wican-fw setup
 ```bash
-./fw/edit-wican.sh
+bash ./fw/edit-wican.sh
 cd fw/wican-fw
 
 # Only needed on the very first build
@@ -91,7 +92,7 @@ Also available at `bom.csv` (csv contains costs). Costs may vary.
 | `D5` | 1 | `SMBJ18A` | 18V 600W Unidirectional TVS Diode | SMB | MDD | `SMBJ18A` | [C353379](https://jlcpcb.com/partdetail/C353379) |
 | `F1` | 1 | `500mA` | 30V 500mA Resettable PTC Fuse | 1812 | Jinrui | `JK-MSMD050-30` | [C369168](https://jlcpcb.com/partdetail/C369168) |
 | `L1` | 1 | `4.7uH` | 4.7uH 6A Shielded Power Inductor | 7.3x6.6mm | Sunlord | `MWSA0603S-4R7MT` | [C408447](https://jlcpcb.com/partdetail/C408447) |
-| `J1` | 1 | `CCBDM20` | OBD-II 16-Pin Male Right-Angle (Hand-Solder) | THT | Generic | `CCBDM20` | [eBay](https://www.ebay.com/itm/307150583236?_trksid=p4375194.c102726.m162918) |
+| `J1` | 1 | `CCBDM20` | OBD-II 16-Pin Male Right-Angle (Hand-Solder) | THT | Generic | `CCBDM20` | [eBay](https://www.ebay.com/itm/307150583236) |
 | `J2` | 1 | `TYPE-C-31-M-12` | USB 2.0 Type-C Receptacle (16P) | SMD+THT | Korean Hroparts Elec | `TYPE-C-31-M-12` | [C165948](https://jlcpcb.com/partdetail/C165948) |
 | `SW1, SW2` | 2 | `GT-TZ084B-H015-L1` | Tactile Pushbutton Switch (BOOT / RESET) | 5.2x5.2mm | G-Switch | `GT-TZ084B-H015-L1` | [C29780122](https://jlcpcb.com/partdetail/C29780122) |
 | `R1` | 1 | `100R` | 100 Ohm 1% Resistor | 0603 | UNI-ROYAL | `0603WAF1000T5E` | [C22775](https://jlcpcb.com/partdetail/C22775) |
@@ -106,4 +107,4 @@ Also available at `bom.csv` (csv contains costs). Costs may vary.
 | `C8` | 1 | `10uF` | 10uF 50V X5R Capacitor | 1206 | Samsung Electro-Mechanics | `CL31A106KBHNNNE` | [C13585](https://jlcpcb.com/partdetail/C13585) |
 | `C11, C12` | 2 | `22uF` | 22uF 16V X5R Capacitor | 0805 | Samsung Electro-Mechanics | `CL21A226MOQNNNE` | [C98190](https://jlcpcb.com/partdetail/C98190) |
 
-Note: `J1` (the OBD-II port) is not usually available from Macchina, so an alternative from other sites such as [this one from eBay](https://www.ebay.com/itm/267812712566) for ~$15 will work as well.
+Note: `J1` (the OBD-II port) is not usually available from Macchina, so an alternative from other sites such as [this one from eBay](https://www.ebay.com/itm/307150583236) for ~$15 will work as well.
