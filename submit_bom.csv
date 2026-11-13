@@ -1,0 +1,24 @@
+Designator,Qty (1 Board),Qty (2 Boards),Value,Description,Package,Manufacturer,MPN,LCSC,Price $,Price Total $,Link
+U1,1,2,ESP32-S3-WROOM-1-N8,ESP32-S3 Wi-Fi + BLE MCU (8MB Flash),Module,Espressif Systems,ESP32-S3-WROOM-1-N8,C2913198,4.9186,9.8372,https://jlcpcb.com/partdetail/C2913198
+U2,1,2,SN65HVD230,3.3V CAN Transceiver (1 Mbps),SOIC-8,Texas Instruments,SN65HVD230DR,C12084,0.5493,1.0986,https://jlcpcb.com/partdetail/C12084
+U3,1,2,AP2112K-3.3,3.3V 600mA LDO Regulator,SOT-23-5,Diodes Incorporated,AP2112K-3.3TRG1,C51118,0.1665,0.3330,https://jlcpcb.com/partdetail/C51118
+U4,1,2,AP63205WU,3.8-32V to 5V 2A Buck Converter,TSOT-23-6,Diodes Incorporated,AP63205WU-7,C2071056,0.4626,0.9252,https://jlcpcb.com/partdetail/C2071056
+D1,1,2,NUP2105L,Dual 24V CAN ESD/TVS Diode,SOT-23,onsemi,NUP2105LT1G,C14486,0.0824,0.1648,https://jlcpcb.com/partdetail/C14486
+"D2, D3, D4",3,6,1N5819WS,40V 1A Schottky Diode,SOD-323,Guangdong Hottech,1N5819WS,C191023,0.0372,0.0744,https://jlcpcb.com/partdetail/C191023
+D5,1,2,SMBJ18A,18V 600W Unidirectional TVS Diode,SMB,MDD,SMBJ18A,C353379,0.0404,0.0808,https://jlcpcb.com/partdetail/C353379
+F1,1,2,500mA,30V 500mA Resettable PTC Fuse,1812,Jinrui,JK-MSMD050-30,C369168,0.0357,0.0714,https://jlcpcb.com/partdetail/C369168
+L1,1,2,4.7uH,4.7uH 6A Shielded Power Inductor,7.3x6.6mm,Sunlord,MWSA0603S-4R7MT,C408447,0.1097,0.2194,https://jlcpcb.com/partdetail/C408447
+J1,1,1,CCBDM20,OBD-II 16-Pin Male Right-Angle (Hand-Solder),THT,Macchina / Generic,CCBDM20,,15.1100,15.1100,https://www.ebay.com/itm/307150583236?_trksid=p4375194.c102726.m162918
+J2,1,2,TYPE-C-31-M-12,USB 2.0 Type-C Receptacle (16P),SMD+THT,Korean Hroparts Elec,TYPE-C-31-M-12,C165948,0.1867,0.3734,https://jlcpcb.com/partdetail/C165948
+"SW1, SW2",2,4,GT-TZ084B-H015-L1,Tactile Pushbutton Switch (BOOT / RESET),5.2x5.2mm,G-Switch,GT-TZ084B-H015-L1,C29780122,0.0206,0.0412,https://jlcpcb.com/partdetail/C29780122
+R1,1,2,100R,100 Ohm 1% Resistor,0603,UNI-ROYAL,0603WAF1000T5E,C22775,0.0020,0.0040,https://jlcpcb.com/partdetail/C22775
+"R2, R3",2,4,0R,0 Ohm Jumper,0603,UNI-ROYAL,0603WAF0000T5E,C21189,0.0042,0.0084,https://jlcpcb.com/partdetail/C21189
+"R4, R9",2,4,10k,10 kOhm 1% Resistor,0603,UNI-ROYAL,0603WAF1002T5E,C25804,0.0044,0.0088,https://jlcpcb.com/partdetail/C25804
+"R5, R6",2,4,5.1k,5.1 kOhm 1% Resistor,0603,UNI-ROYAL,0603WAF5101T5E,C23186,0.0030,0.0060,https://jlcpcb.com/partdetail/C23186
+R7,1,2,100k,100 kOhm 1% Resistor,0603,UNI-ROYAL,0603WAF1003T5E,C25803,0.0031,0.0062,https://jlcpcb.com/partdetail/C25803
+R8,1,2,16k,16 kOhm 1% Resistor,0603,UNI-ROYAL,0603WAF1602T5E,C4210,0.0019,0.0038,https://jlcpcb.com/partdetail/C4210
+"C4, C9, C10, C13, C14, C15, C17",7,14,100nF,100nF 50V X7R Capacitor,0603,Yageo,CC0603KRX7R9BB104,C14663,0.1148,0.2296,https://jlcpcb.com/partdetail/C14663
+C5,1,2,1uF,1uF 50V X5R Capacitor,0603,Samsung Electro-Mechanics,CL10A105KB8NNNC,C15849,0.0152,0.0304,https://jlcpcb.com/partdetail/C15849
+"C6, C7, C16",3,6,10uF,10uF 25V X5R Capacitor,0805,Samsung Electro-Mechanics,CL21A106KAYNNNE,C15850,0.0942,0.1884,https://jlcpcb.com/partdetail/C15850
+C8,1,2,10uF,10uF 50V X5R Capacitor,1206,Samsung Electro-Mechanics,CL31A106KBHNNNE,C13585,0.1269,0.2538,https://jlcpcb.com/partdetail/C13585
+"C11, C12",2,4,22uF,22uF 16V X5R Capacitor,0805,Samsung Electro-Mechanics,CL21A226MOQNNNE,C98190,0.1168,0.2336,https://jlcpcb.com/partdetail/C98190

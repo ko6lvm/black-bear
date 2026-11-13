@@ -17,6 +17,7 @@ git -C "${WICAN_DIR}" checkout -- \
     main/wc_mdns.c \
     main/config_server.c \
     main/mqtt.c \
+    main/sleep_mode.c \
     main/homepage_full.html
 
 WICAN_DIR="${WICAN_DIR}" python3 - << 'EOF'
@@ -165,6 +166,10 @@ replace_exact("main/homepage_full.html", [
     ('value="meatpi"', 'value="blackbear"'),
     ("<td>Reboot WiCAN:</td>", "<td>Reboot black bear:</td>"),
     ('<div id="made_by"><a href="https://www.meatpi.com/"><b>meatpi.com</b></a></div>', '<div id="made_by"><b>black bear</b></div>'),
+])
+
+replace_exact("main/sleep_mode.c", [
+    ("battery_voltage += 0.2;", "battery_voltage += 0.35f;"),
 ])
 EOF
 
