@@ -39,10 +39,7 @@ Additionally, assembly can be done by JLCPCB PCBA, with the following constraint
 
 ## Schematic
 ### Images
-<details>
-<summary>Full Schematic (collapsable as image is large)</summary>
 <image src="img/schematic.png" width=700>
-</details>
 
 ## Case
 ### Specs
@@ -79,7 +76,7 @@ idf.py -p /dev/ttyACM0 build flash
 ```
 
 ## BoM
-Also available at `bom.csv` (csv contains costs). Costs may vary.
+Also available at `generic-bom.csv` (NOT `bom.csv`). Costs may vary.
 
 | Designator | Qty | Value | Description | Package | Manufacturer | MPN | Link |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- | :--- |
