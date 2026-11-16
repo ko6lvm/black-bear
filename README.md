@@ -3,13 +3,15 @@ black bear is an ESP32-based CAN scanner for your car.
 
 <image src="img/blender/front.png" width=500>
 
+black bear REV1.2
+
 ### Purpose
 black bear is for diagnosing and pulling information from any car, such as information and faults about the powertrain, steering rack, and more. It is too complicated to get into on a README like this; more information can be found on pages like [OBDSolutions](https://www.obdsol.com/knowledgebase/on-board-diagnostics/what-data-is-available-from-obd/), [SAE J1979](https://legacy.sae.org/standards/), and the [OBD-II PIDs Wikipedia page](https://en.wikipedia.org/wiki/OBD-II_PIDs).  
 
 Why was this made? All the OBD-II wireless scanners are expensive or low-quality, so I made my own, open-source version.
 
 ### Connection
-black bear connects to your car's OBD-II port found on every passenger vehicle made after 1996 in the United States. More about OBD-II can be found [here](https://en.wikipedia.org/wiki/On-board_diagnostics#:~:text=OBD%2DIIedit).
+black bear connects to your car's OBD-II port found on every passenger vehicle made after 1996 in the United States. More about OBD-II can be found [here](https://en.wikipedia.org/wiki/On-board_diagnostics#:~:text=OBD%2DII).
 
 ## PCB
 ### Specs
@@ -49,17 +51,17 @@ STEPs and STLs for printing are available under `cad/`.
 
 
 ### Images
+<image src="img/blender/exploded.png" width=700>
 <details>
-<summary>Renders (collapsable as image is large)</summary>
+<summary>More Renders</summary>
 <image src="img/blender/front.png" width=700>
 <image src="img/blender/bottom.png" width=700>
 <image src="img/blender/macro.png" width=700>
-<image src="img/blender/exploded.png" width=700>
 <image src="img/blender/open.png" width=700>
 </details>
 
 <details>
-<summary>Case Trays (collapsable as image is large)</summary>
+<summary>Case Trays (collapsable as multiple images)</summary>
 <image src="img/top-heatset.png" width=700>
 <image src="img/bottom.png" width=700>
 </details>
@@ -101,7 +103,7 @@ Fallen (Hack Club) reviewers check `bom.csv`.
 | `D5` | 1 | `SMBJ18A` | 18V 600W Unidirectional TVS Diode | SMB | MDD | `SMBJ18A` | [C353379](https://jlcpcb.com/partdetail/C353379) |
 | `F1` | 1 | `500mA` | 30V 500mA Resettable PTC Fuse | 1812 | Jinrui | `JK-MSMD050-30` | [C369168](https://jlcpcb.com/partdetail/C369168) |
 | `L1` | 1 | `4.7uH` | 4.7uH 6A Shielded Power Inductor | 7.3x6.6mm | Sunlord | `MWSA0603S-4R7MT` | [C408447](https://jlcpcb.com/partdetail/C408447) |
-| `J1` | 1 | `CCBDM20` | OBD-II 16-Pin Male Right-Angle (Hand-Solder) | THT | Generic | `CCBDM20` | [eBay](https://www.ebay.com/itm/307150583236) |
+| `J1` | 1 | `CCBDM20` | OBD-II 16-Pin Male Right-Angle (Hand-Solder) | THT | Macchina / Generic | `CCBDM20` | [eBay](https://www.ebay.com/itm/307150583236) |
 | `J2` | 1 | `TYPE-C-31-M-12` | USB 2.0 Type-C Receptacle (16P) | SMD+THT | Korean Hroparts Elec | `TYPE-C-31-M-12` | [C165948](https://jlcpcb.com/partdetail/C165948) |
 | `SW1, SW2` | 2 | `GT-TZ084B-H015-L1` | Tactile Pushbutton Switch (BOOT / RESET) | 5.2x5.2mm | G-Switch | `GT-TZ084B-H015-L1` | [C29780122](https://jlcpcb.com/partdetail/C29780122) |
 | `R1` | 1 | `100R` | 100 Ohm 1% Resistor | 0603 | UNI-ROYAL | `0603WAF1000T5E` | [C22775](https://jlcpcb.com/partdetail/C22775) |
@@ -115,5 +117,8 @@ Fallen (Hack Club) reviewers check `bom.csv`.
 | `C6, C7, C16` | 3 | `10uF` | 10uF 25V X5R Capacitor | 0805 | Samsung Electro-Mechanics | `CL21A106KAYNNNE` | [C15850](https://jlcpcb.com/partdetail/C15850) |
 | `C8` | 1 | `10uF` | 10uF 50V X5R Capacitor | 1206 | Samsung Electro-Mechanics | `CL31A106KBHNNNE` | [C13585](https://jlcpcb.com/partdetail/C13585) |
 | `C11, C12` | 2 | `22uF` | 22uF 16V X5R Capacitor | 0805 | Samsung Electro-Mechanics | `CL21A226MOQNNNE` | [C98190](https://jlcpcb.com/partdetail/C98190) |
+| `Enclosure Screws` | 3 | `M3 x 8 mm` | ISO 7380 M3 x 8 mm Button-Head Socket Cap Screw | M3 x 8 mm | McMaster-Carr / Generic | `91239A113` | [McMaster-Carr](https://www.mcmaster.com/91239A113/) |
+| `Heat-Set Inserts` | 3 | `M3 x 5 x 4 mm` | Voron-Spec M3 x D5.0 x L4.0 mm Brass Heat-Set Insert | M3 x 5 x 4 mm | KB-3D / Generic | `M3x5x4` | [KB-3D](https://kb-3d.com/store/inserts-fasteners-adhesives/278-brass-heat-set-threaded-insert-for-plastic-m3x5x4mm.html) |
+| `3D Print Filament` | 1 | `ASA 1.75 mm` | Unfilled ASA/ABS/PETG 1.75 mm filament for 3D-printed enclosure | 1.75 mm (1 kg) | Polymaker | `Polymaker ASA` | [Polymaker](https://us.polymaker.com/products/polymaker-asa) |
 
 Note: `J1` (the OBD-II port) is not usually available from Macchina, so an alternative from other sites such as [this one from eBay](https://www.ebay.com/itm/307150583236) for ~$15 will work as well.

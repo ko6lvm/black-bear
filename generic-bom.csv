@@ -1,24 +1,27 @@
-Designator,Qty,Value,Description,Package,Manufacturer,MPN,LCSC,Each ($),Total ($)
-U1,1,ESP32-S3-WROOM-1-N8,ESP32-S3 Wi-Fi + BLE MCU (8MB Flash),Module,Espressif Systems,ESP32-S3-WROOM-1-N8,C2913198,4.9186,4.9186
-U2,1,SN65HVD230,3.3V CAN Transceiver (1 Mbps),SOIC-8,Texas Instruments,SN65HVD230DR,C12084,0.5493,0.5493
-U3,1,AP2112K-3.3,3.3V 600mA LDO Regulator,SOT-23-5,Diodes Incorporated,AP2112K-3.3TRG1,C51118,0.1665,0.1665
-U4,1,AP63205WU,3.8-32V to 5V 2A Buck Converter,TSOT-23-6,Diodes Incorporated,AP63205WU-7,C2071056,0.4626,0.4626
-D1,1,NUP2105L,Dual 24V CAN ESD/TVS Diode,SOT-23,onsemi,NUP2105LT1G,C14486,0.0824,0.0824
-"D2, D3, D4",3,1N5819WS,40V 1A Schottky Diode,SOD-323,Guangdong Hottech,1N5819WS,C191023,0.0124,0.0372
-D5,1,SMBJ18A,18V 600W Unidirectional TVS Diode,SMB,MDD,SMBJ18A,C353379,0.0404,0.0404
-F1,1,500mA,30V 500mA Resettable PTC Fuse,1812,Jinrui,JK-MSMD050-30,C369168,0.0357,0.0357
-L1,1,4.7uH,4.7uH 6A Shielded Power Inductor,7.3x6.6mm,Sunlord,MWSA0603S-4R7MT,C408447,0.1097,0.1097
-J1,1,CCBDM20,OBD-II 16-Pin Male Right-Angle (Hand-Solder),THT,Macchina / Generic,CCBDM20,,15.1100,15.1100
-J2,1,TYPE-C-31-M-12,USB 2.0 Type-C Receptacle (16P),SMD+THT,Korean Hroparts Elec,TYPE-C-31-M-12,C165948,0.1867,0.1867
-"SW1, SW2",2,GT-TZ084B-H015-L1,Tactile Pushbutton Switch (BOOT / RESET),5.2x5.2mm,G-Switch,GT-TZ084B-H015-L1,C29780122,0.0103,0.0206
-R1,1,100R,100 Ohm 1% Resistor,0603,UNI-ROYAL,0603WAF1000T5E,C22775,0.0020,0.0020
-"R2, R3",2,0R,0 Ohm Jumper,0603,UNI-ROYAL,0603WAF0000T5E,C21189,0.0021,0.0042
-"R4, R9",2,10k,10 kOhm 1% Resistor,0603,UNI-ROYAL,0603WAF1002T5E,C25804,0.0022,0.0044
-"R5, R6",2,5.1k,5.1 kOhm 1% Resistor,0603,UNI-ROYAL,0603WAF5101T5E,C23186,0.0015,0.0030
-R7,1,100k,100 kOhm 1% Resistor,0603,UNI-ROYAL,0603WAF1003T5E,C25803,0.0031,0.0031
-R8,1,16k,16 kOhm 1% Resistor,0603,UNI-ROYAL,0603WAF1602T5E,C4210,0.0019,0.0019
-"C4, C9, C10, C13, C14, C15, C17",7,100nF,100nF 50V X7R Capacitor,0603,Yageo,CC0603KRX7R9BB104,C14663,0.0164,0.1148
-C5,1,1uF,1uF 50V X5R Capacitor,0603,Samsung Electro-Mechanics,CL10A105KB8NNNC,C15849,0.0152,0.0152
-"C6, C7, C16",3,10uF,10uF 25V X5R Capacitor,0805,Samsung Electro-Mechanics,CL21A106KAYNNNE,C15850,0.0314,0.0942
-C8,1,10uF,10uF 50V X5R Capacitor,1206,Samsung Electro-Mechanics,CL31A106KBHNNNE,C13585,0.1269,0.1269
-"C11, C12",2,22uF,22uF 16V X5R Capacitor,0805,Samsung Electro-Mechanics,CL21A226MOQNNNE,C98190,0.0584,0.1168
+Designator,Qty,Value,Description,Package,Manufacturer,MPN,LCSC,Each ($),Total ($),Link
+U1,1,ESP32-S3-WROOM-1-N8,ESP32-S3 Wi-Fi + BLE MCU (8MB Flash),Module,Espressif Systems,ESP32-S3-WROOM-1-N8,C2913198,4.9186,4.9186,https://jlcpcb.com/partdetail/C2913198
+U2,1,SN65HVD230,3.3V CAN Transceiver (1 Mbps),SOIC-8,Texas Instruments,SN65HVD230DR,C12084,0.5493,0.5493,https://jlcpcb.com/partdetail/C12084
+U3,1,AP2112K-3.3,3.3V 600mA LDO Regulator,SOT-23-5,Diodes Incorporated,AP2112K-3.3TRG1,C51118,0.1665,0.1665,https://jlcpcb.com/partdetail/C51118
+U4,1,AP63205WU,3.8-32V to 5V 2A Buck Converter,TSOT-23-6,Diodes Incorporated,AP63205WU-7,C2071056,0.4626,0.4626,https://jlcpcb.com/partdetail/C2071056
+D1,1,NUP2105L,Dual 24V CAN ESD/TVS Diode,SOT-23,onsemi,NUP2105LT1G,C14486,0.0824,0.0824,https://jlcpcb.com/partdetail/C14486
+"D2, D3, D4",3,1N5819WS,40V 1A Schottky Diode,SOD-323,Guangdong Hottech,1N5819WS,C191023,0.0124,0.0372,https://jlcpcb.com/partdetail/C191023
+D5,1,SMBJ18A,18V 600W Unidirectional TVS Diode,SMB,MDD,SMBJ18A,C353379,0.0404,0.0404,https://jlcpcb.com/partdetail/C353379
+F1,1,500mA,30V 500mA Resettable PTC Fuse,1812,Jinrui,JK-MSMD050-30,C369168,0.0357,0.0357,https://jlcpcb.com/partdetail/C369168
+L1,1,4.7uH,4.7uH 6A Shielded Power Inductor,7.3x6.6mm,Sunlord,MWSA0603S-4R7MT,C408447,0.1097,0.1097,https://jlcpcb.com/partdetail/C408447
+J1,1,CCBDM20,OBD-II 16-Pin Male Right-Angle (Hand-Solder),THT,Macchina / Generic,CCBDM20,,15.1100,15.1100,https://www.ebay.com/itm/307150583236
+J2,1,TYPE-C-31-M-12,USB 2.0 Type-C Receptacle (16P),SMD+THT,Korean Hroparts Elec,TYPE-C-31-M-12,C165948,0.1867,0.1867,https://jlcpcb.com/partdetail/C165948
+"SW1, SW2",2,GT-TZ084B-H015-L1,Tactile Pushbutton Switch (BOOT / RESET),5.2x5.2mm,G-Switch,GT-TZ084B-H015-L1,C29780122,0.0103,0.0206,https://jlcpcb.com/partdetail/C29780122
+R1,1,100R,100 Ohm 1% Resistor,0603,UNI-ROYAL,0603WAF1000T5E,C22775,0.0020,0.0020,https://jlcpcb.com/partdetail/C22775
+"R2, R3",2,0R,0 Ohm Jumper,0603,UNI-ROYAL,0603WAF0000T5E,C21189,0.0021,0.0042,https://jlcpcb.com/partdetail/C21189
+"R4, R9",2,10k,10 kOhm 1% Resistor,0603,UNI-ROYAL,0603WAF1002T5E,C25804,0.0022,0.0044,https://jlcpcb.com/partdetail/C25804
+"R5, R6",2,5.1k,5.1 kOhm 1% Resistor,0603,UNI-ROYAL,0603WAF5101T5E,C23186,0.0015,0.0030,https://jlcpcb.com/partdetail/C23186
+R7,1,100k,100 kOhm 1% Resistor,0603,UNI-ROYAL,0603WAF1003T5E,C25803,0.0031,0.0031,https://jlcpcb.com/partdetail/C25803
+R8,1,16k,16 kOhm 1% Resistor,0603,UNI-ROYAL,0603WAF1602T5E,C4210,0.0019,0.0019,https://jlcpcb.com/partdetail/C4210
+"C4, C9, C10, C13, C14, C15, C17",7,100nF,100nF 50V X7R Capacitor,0603,Yageo,CC0603KRX7R9BB104,C14663,0.0164,0.1148,https://jlcpcb.com/partdetail/C14663
+C5,1,1uF,1uF 50V X5R Capacitor,0603,Samsung Electro-Mechanics,CL10A105KB8NNNC,C15849,0.0152,0.0152,https://jlcpcb.com/partdetail/C15849
+"C6, C7, C16",3,10uF,10uF 25V X5R Capacitor,0805,Samsung Electro-Mechanics,CL21A106KAYNNNE,C15850,0.0314,0.0942,https://jlcpcb.com/partdetail/C15850
+C8,1,10uF,10uF 50V X5R Capacitor,1206,Samsung Electro-Mechanics,CL31A106KBHNNNE,C13585,0.1269,0.1269,https://jlcpcb.com/partdetail/C13585
+"C11, C12",2,22uF,22uF 16V X5R Capacitor,0805,Samsung Electro-Mechanics,CL21A226MOQNNNE,C98190,0.0584,0.1168,https://jlcpcb.com/partdetail/C98190
+Enclosure Screws,3,M3 x 8 mm,"ISO 7380 M3 x 8 mm Button-Head Socket Cap Screw",M3 x 8 mm,McMaster-Carr / Generic,91239A113,,,,https://www.mcmaster.com/91239A113/
+Heat-Set Inserts,3,M3 x 5 x 4 mm,"Voron-Spec M3 x D5.0 x L4.0 mm Brass Heat-Set Insert",M3 x 5 x 4 mm,KB-3D / Generic,M3x5x4,,,,https://kb-3d.com/store/inserts-fasteners-adhesives/278-brass-heat-set-threaded-insert-for-plastic-m3x5x4mm.html
+3D Print Filament,1,ASA 1.75 mm,"Unfilled ASA/ABS/PETG 1.75 mm filament for 3D-printed enclosure",1.75 mm (1 kg),Polymaker,Polymaker ASA,,,,https://us.polymaker.com/products/polymaker-asa
