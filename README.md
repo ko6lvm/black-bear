@@ -26,7 +26,7 @@ Additionally, assembly can be done by JLCPCB PCBA, with the following constraint
 ### Files
 
 * CPL/BOM files for JLCPCB PCBA is under `pcb/`, marked `_eco.csv` for economic PCBA and `_standard.csv` for standard PCBA.
-* Gerber ZIP for both Economic and Standard is at `pcb/black-bear-rev-1.2.zip`.
+* Gerber ZIP for both Economic and Standard is at `pcb/gerbers.zip`.
 * KiCAD 10 project files are at `pcb/`, as `bear.kicad_pcb`, `bear.kicad_prl`, `bear.kicad_pro`, and `bear.kicad_sch`.
 * KiCAD 10 library files are at `pcb/lib/`.
 
