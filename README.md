@@ -6,6 +6,8 @@ black bear is an ESP32-based CAN scanner for your car.
 ### Purpose
 black bear is for diagnosing and pulling information from any car, such as information and faults about the powertrain, steering rack, and more. It is too complicated to get into on a README like this; more information can be found on pages like [OBDSolutions](https://www.obdsol.com/knowledgebase/on-board-diagnostics/what-data-is-available-from-obd/), [SAE J1979](https://legacy.sae.org/standards/), and the [OBD-II PIDs Wikipedia page](https://en.wikipedia.org/wiki/OBD-II_PIDs).  
 
+Why was this made? All the OBD-II wireless scanners are expensive or low-quality, so I made my own, open-source version.
+
 ### Connection
 black bear connects to your car's OBD-II port found on every passenger vehicle made after 1996 in the United States. More about OBD-II can be found [here](https://en.wikipedia.org/wiki/On-board_diagnostics#:~:text=OBD%2DIIedit).
 
@@ -27,24 +29,25 @@ Additionally, assembly can be done by JLCPCB PCBA, with the following constraint
 * KiCAD 10 library files are at `pcb/lib/`.
 
 ### Images
-<details>
-<summary>KiCAD PCB 3D View (collapsable as image is large)</summary>
 <image src="img/pcb.png" width=500>
-</details>
-
-<details>
-<summary>KiCAD PCB Editor View (collapsable as image is large)</summary>
 <image src="img/pcb-editor.png" width=700>
-</details>
 
 ## Schematic
 ### Images
 <image src="img/schematic.png" width=700>
 
 ## Case
+
 ### Specs
 Only use PETG, ABS, or ASA. PLA will deform in a hot car.  
 M3 screws are to be used. There are two options of the top case tray, one for self-tap M3 screws, and one for M3 screws with heatset inserts.
+
+### Files
+Full assembly file is in [Onshape (only has imports and assemblies)](https://cad.onshape.com/documents/0f60f5a748864e0e3fc43e3c/w/c455050c46e4b983e933fd74/e/c384c96416b41964d5c2a77d).  
+
+STEPs and STLs for printing are available under `cad/`.
+
+
 ### Images
 <details>
 <summary>Renders (collapsable as image is large)</summary>
@@ -75,8 +78,17 @@ idf.py set-target esp32s3
 idf.py -p /dev/ttyACM0 build flash
 ```
 
+## Usage
+1. Flash the ESP32 using the script provided above, through the USB-C port. To enter flash mode, you must hold B (BOOT), tap R (RESET), then release B (BOOT).
+2. Connect to your car using the OBD-II port.
+3. Connect via Wifi or BLE. Wifi will be a hotspot named `black bear <MAC>` with the password `@blackbear#` by default. Configure through the web portal at `black-bear-<id>.local`. BLE will be named `black bear <last 4 hex>`.
+4. To see data, use `elm327` with mobile or desktop OBD-II scanner apps. 
+ 
+More information regarding firmware is at the wican-fw repo linked above.
+
 ## BoM
-Also available at `generic-bom.csv` (NOT `bom.csv`). Costs may vary.
+Also available at `generic-bom.csv`. Costs may vary.  
+Fallen (Hack Club) reviewers check `bom.csv`.
 
 | Designator | Qty | Value | Description | Package | Manufacturer | MPN | Link |
 | :--- | :---: | :--- | :--- | :--- | :--- | :--- | :--- |

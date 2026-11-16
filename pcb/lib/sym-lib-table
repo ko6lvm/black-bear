@@ -1,0 +1,4 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "bear") (type "KiCad") (uri "${KIPRJMOD}/lib/bear.kicad_sym") (options "") (descr "Project local symbols"))
+)
